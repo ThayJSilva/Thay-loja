@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adicionar Produto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body bgcolor="#FFE5B4">
+    <div class="text-center " id="titulo"">
+        <h2>Thay Variedades</h2>
+    </div>
+
+
+<div class="text-center">
+    <ul>
+        <li>
+            <a href="index.html">HOME</a>
+        </li>
+        <li>
+            <a href="funcionarios.html">FUNCIONARIOS</a>
+        </li>
+        <li>
+            <a href="ctrl-estoque.html">ESTOQUE</a>
+        </li>
+        <li>
+            <a href="add-produto.html">PRODUTOS</a>
+        </li>
+    </ul>
+    </div>
+
+    <div class="text-center">
+    
+    <h2>Adicionar Produto</h2>
+    
+    <form>
+        <div>
+            <label for="link-foto">Link para foto: </label>
+            <input class="mb" type="url" id="link-foto" name="link-foto">
+        </div>
+
+        <div>
+            <label for="descricao">Descrição do produto: </label>
+            <!-- Adicione o id apropriado para o input abaixo -->
+            <input class="mb" type="text" id="descricao" name="descrição">
+        </div>
+
+        <div>
+            <label for="preco">Preço (em R$): </label>
+            <!-- Adicione o id apropriado e o type para receber números abaixo -->
+            <input class="mb" type="number" id="preco" name="preço">
+        </div>
+
+        <div>
+            <!-- Preencha as propriedades necessárias para os elementos abaixo -->
+            <label for="Quantidade">Quantidade disponível: </label>
+            <input class="mb" type="quantidade" id="quantidade">
+        </div>
+
+        <div class="form-add">
+            <!-- Adicione ao type do botão abaixo o valor para que ele submeta o formulário -->
+            <button type="">Adicionar</button>
+        </div>
+    </div>
+    
+    </form>
+
+
+</body>
+</html>
